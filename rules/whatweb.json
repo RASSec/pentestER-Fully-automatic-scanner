@@ -1,0 +1,66 @@
+{
+    "discuz": [
+        {
+            "url": "/static/image/admincp/bg_repno.gif",
+            "md5": "403889213f03534a0651d7cfd6878b2c"
+        },
+        {
+            "url": "/",
+            "text": "<meta name=\"generator\" content=\"Discuz!",
+            "regexp": "<script src=\".*?logging\\.js"
+        }
+    ],
+    "phpwind": [
+        {
+            "url": "/res/js/dev/wind.js",
+            "md5": "7ad9ac3d647e00e12c615a06762430fe"
+        },
+        {
+            "url": "/",
+            "regexp": "<meta name=\"generator\" content=\"(phpwind|PHPWind)"
+        }
+    ],
+    "phpmyadmin": [
+        {
+            "url": "/",
+            "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"phpmyadmin.css.php",
+            "regexp": "<title>phpMyAdmin</title>"
+        }
+    ],
+    "wordpress": [
+        {
+            "url": "/wp-login.php",
+            "text": ["wp-core-ui", "click-backtoblog"]
+        }
+    ],
+    "zblog": [
+        {
+            "url": "/",
+            "regexp": "<link rel=\"stylesheet\" rev=\"stylesheet\" href=\".*zb_users"
+        }
+    ],
+    "emlog": [
+        {
+            "url": "/",
+            "regexp": ["include/lib/js/common_tpl.js", "Powered by emlog"]
+        }
+    ],
+    "phpcms": [
+        {
+            "url": "/",
+            "text": ["<link href=\"templates/default/skins/default/phpcms.css","Powered by Phpcms"],
+            "regexp": "Powered by (PHPCMS|Phpcms)"
+        },
+        {
+            "url": "/statics/images/icon/error.png",
+            "md5": "3c1bba4c2d2c0f9733ceff5f9f36baba"
+        }
+    ],
+    "dedecms": [
+        {
+            "url": "/",
+            "text": ["DedeAjax(","DedeCMS"],
+            "regexp": "Powered By <a href=\"http://www.dedecms.com/\""
+        }
+    ]
+}
